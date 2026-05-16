@@ -1,0 +1,62 @@
+{
+  "title": "Ohjelmistokehittäjä",
+  "profile": {
+    "intro": "Full-stack kehittäjä, diginatiivi, verkkomaailman renesanssimies",
+    "detail": "Tykkään kirjoittaa laadukasta käsityöläiskoodia, mutta puuhastella myös uusilla teknologioilla ja moderneilla AI-työkaluilla."
+  },
+  "skills": {
+    "tech": "Teknologiat",
+    "databases": "Tietokannat",
+    "tools": "Työkalut"
+  },
+  "education": {
+    "heading": "Koulutus",
+    "msc": {
+      "degree": "Filosofian maisteri — Software, Web & Cloud",
+      "school": "Tampereen yliopisto"
+    },
+    "bsc": {
+      "degree": "Luonnontieteiden kandidaatti — Tietojenkäsittelytiede",
+      "school": "Oulun yliopisto",
+      "minor": "Sivuaine: Psykologia"
+    },
+    "hs": {
+      "degree": "Ylioppilas",
+      "school": "Madetojan musiikkilukio, Oulu"
+    }
+  },
+  "experience": {
+    "heading": "Työkokemus",
+    "insta": {
+      "title": "Ohjelmistokehittäjä",
+      "desc": "Full-stack ohjelmistokehitystä vaihtelevissa asiakasprojekteissa konsultoiden."
+    },
+    "esend": {
+      "title": "Ohjelmistokehittäjä & -suunnittelija",
+      "desc": "Käyttöliittymäsuunnittelua ennen siirtymistä full-stack kehitystehtäviin, ottaen kokonaisvastuun ominaisuuksien kehittämisestä suunnittelusta tuotantoon."
+    },
+    "tuudoDev": {
+      "title": "Ohjelmistokehittäjäharjoittelija",
+      "desc": "Sisäisen työkalun suunnittelu ja kehitys."
+    },
+    "tuudoSales": {
+      "title": "Myyntineuvottelija",
+      "desc": "B2B-myyntitehtäviä työnantajapalveluissa, asiakassuhteiden hoito digitaalisesti ja kasvotusten sekä asiakasanalytiikan toimittaminen."
+    }
+  },
+  "projects": {
+    "heading": "Projektit",
+    "sep": {
+      "title": "Software Engineering Project",
+      "org": "Tampereen yliopisto & Huld Oy, Tampere",
+      "desc": "Toimialayhteistyöprojekti maisterin tutkintoon kuuluvana kurssina. Kehitettiin digitaalinen tapahtumapassi mobiili- ja verkkopohjaisena hallintasovelluksena 6-hengen tiimissä.",
+      "resp": "Käyttöliittymäsuunnittelun ja frontend-kehityksen johtaminen, junior kehittäjien mentorointi."
+    }
+  },
+  "languages": {
+    "heading": "Kielitaito",
+    "finnish": "Suomi — Äidinkieli",
+    "english": "Englanti — Erinomainen",
+    "swedish": "Ruotsi — Perusteet"
+  }
+}

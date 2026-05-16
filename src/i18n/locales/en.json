@@ -1,0 +1,62 @@
+{
+  "title": "Software Developer",
+  "profile": {
+    "intro": "Full-stack developer, a digital native, and a renaissance man of the web.",
+    "detail": "I like to write quality artisan code, but also to dabble with new technologies and modern AI tools."
+  },
+  "skills": {
+    "tech": "Tech Stack",
+    "databases": "Databases",
+    "tools": "Tools"
+  },
+  "education": {
+    "heading": "Education",
+    "msc": {
+      "degree": "Master of Science — Software, Web & Cloud",
+      "school": "Tampere University"
+    },
+    "bsc": {
+      "degree": "Bachelor of Science — Computer Science",
+      "school": "University of Oulu",
+      "minor": "Minor: Psychology"
+    },
+    "hs": {
+      "degree": "High School Diploma",
+      "school": "Madetoja Music High School, Oulu"
+    }
+  },
+  "experience": {
+    "heading": "Work Experience",
+    "insta": {
+      "title": "Software Developer",
+      "desc": "Full-stack development across diverse client projects in a consulting capacity."
+    },
+    "esend": {
+      "title": "Software Developer & Designer",
+      "desc": "Started as a visual designer before transitioning into full-stack development, taking end-to-end ownership of features from design to production."
+    },
+    "tuudoDev": {
+      "title": "Software Developer Intern",
+      "desc": "Designed and worked on an internal tool."
+    },
+    "tuudoSales": {
+      "title": "Sales Representative",
+      "desc": "B2B sales for employer services, managing client relationships digitally and in person, and delivering customer analytics reports."
+    }
+  },
+  "projects": {
+    "heading": "Projects",
+    "sep": {
+      "title": "Software Engineering Project",
+      "org": "Tampere University & Huld Oy, Tampere",
+      "desc": "Industry collaboration through a Master's level course. Developed a digital event passport as a mobile and web admin application within a 6-person team.",
+      "resp": "Led UI design and frontend development; mentored junior team members."
+    }
+  },
+  "languages": {
+    "heading": "Language Skills",
+    "finnish": "Finnish — Native",
+    "english": "English — Excellent",
+    "swedish": "Swedish — Basic"
+  }
+}

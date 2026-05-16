@@ -1,7 +1,6 @@
 const baseTheme = {
   fonts: {
     mono: "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
-    sans: "'Inter', 'SF Pro Display', -apple-system, system-ui, sans-serif",
     display: "'Space Grotesk', 'Inter', sans-serif",
   },
   
@@ -92,60 +91,66 @@ const baseTheme = {
 export const lightTheme = {
   ...baseTheme,
   mode: 'light' as const,
-  
+
+  shadows: {
+    ...baseTheme.shadows,
+    card: '2px 2px 0px',
+  },
+
   colors: {
     background: {
-      primary: '#FAFBFC',
-      secondary: '#FFFFFF',
-      tertiary: '#F6F8FA',
-      code: '#F7F7F7',
-      overlay: 'rgba(255, 255, 255, 0.9)',
+      primary: '#CAC4E0',
+      secondary: '#F2EFFC',
+      tertiary: '#DDD8F0',
+      code: '#EAE6F8',
+      overlay: 'rgba(242, 239, 252, 0.9)',
+      gradient: 'linear-gradient(158deg, #C8C2DE 33%, #CEC8E6 33%, #CEC8E6 66%, #C4BEDC 66%)',
     },
-    
+
     text: {
-      primary: '#24292E',
-      secondary: '#586069',
-      tertiary: '#6A737D',
-      inverse: '#FFFFFF',
-      code: '#032F62',
+      primary: '#2A2D42',
+      secondary: '#5C6080',
+      tertiary: '#8B90AD',
+      inverse: '#F5F3FC',
+      code: '#3D3080',
     },
 
     syntax: {
-      keyword: '#D73A49',
-      string: '#22863A',
-      number: '#005CC5',
-      comment: '#6A737D',
-      function: '#6F42C1',
-      variable: '#E36209',
-      operator: '#D73A49',
-      tag: '#22863A',
-      attribute: '#005CC5',
-      punctuation: '#24292E',
+      keyword: '#9040B8',
+      string: '#1A7A40',
+      number: '#2055B0',
+      comment: '#8B90AD',
+      function: '#5535B8',
+      variable: '#B84010',
+      operator: '#9040B8',
+      tag: '#1A7A40',
+      attribute: '#2055B0',
+      punctuation: '#2A2D42',
     },
 
     accent: {
-      primary: '#0366D6',
-      secondary: '#28A745',
-      error: '#DC143C',
-      warning: '#FFD700',
-      info: '#0366D6',
-      success: '#28A745',
+      primary: '#5060D8',
+      secondary: '#28A048',
+      error: '#C02838',
+      warning: '#C48010',
+      info: '#5060D8',
+      success: '#28A048',
     },
 
     brutal: {
-      black: '#000000',
-      white: '#FFFFFF',
-      yellow: '#FFD700',
-      blue: '#0066FF',
-      red: '#FF0000',
-      green: '#00FF00',
+      black: '#2A2D42',
+      white: '#F5F3FC',
+      yellow: '#C48010',
+      blue: '#5060D8',
+      red: '#C02838',
+      green: '#28A048',
     },
 
     border: {
-      default: '#E1E4E8',
-      dark: '#D1D5DA',
-      light: '#EAECEF',
-      brutal: '#000000',
+      default: '#B8B2D2',
+      dark: '#A8A2C4',
+      light: '#CCC8E4',
+      brutal: '#2A2D42',
     },
   },
 };
@@ -153,7 +158,12 @@ export const lightTheme = {
 export const darkTheme = {
   ...baseTheme,
   mode: 'dark' as const,
-  
+
+  shadows: {
+    ...baseTheme.shadows,
+    card: '0px 0px 8px rgba(67, 183, 255, 0.50), 0px 0px 24px rgba(67, 183, 255, 0.35), 0px 0px 48px rgba(67, 183, 255, 0.15)',
+  },
+
   colors: {
     background: {
       primary: '#1E1E1E',
@@ -161,6 +171,7 @@ export const darkTheme = {
       tertiary: '#2D2D30',
       code: '#1A1A1A',
       overlay: 'rgba(30, 30, 30, 0.9)',
+      gradient: 'linear-gradient(158deg, #0B0F1A 33%, #111820 33%, #111820 66%, #150D1F 66%)',
     },
     
     text: {
@@ -211,4 +222,4 @@ export const darkTheme = {
   },
 };
 
-export type Theme = typeof lightTheme;
+export type Theme = typeof lightTheme | typeof darkTheme;
